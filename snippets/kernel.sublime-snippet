@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+kernel ${1:kernelName}: ImageComputationKernel<e${2:Component}Wise>{
+	Image<e${3:Read}, eAccess${4:Point}, eEdge${5:None}> ${6:in};
+	Image<e${7:Write}> ${8:out};
+
+	param:
+		$9
+
+	local:
+		$10
+
+	//In define(), parameters can be given labels and default values.
+	void define(){
+		$11
+	}
+
+	//The init() function is run before any calls to process()
+	void init(){
+		$12
+	}
+
+	//The process function is run at every pixel to produce the output
+	void process($13){
+		${14:out() = in();}
+	}
+};]]></content>
+    <tabTrigger>kernel</tabTrigger>
+    <scope>source.blink</scope>
+</snippet>

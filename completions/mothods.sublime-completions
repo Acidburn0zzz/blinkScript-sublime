@@ -1,0 +1,35 @@
+{
+	"scope": "source.blink",
+
+	"completions": [
+		{"trigger": "defineParam\tint", "contents": "defineParam(${1:name}, \"${2:externalName}\", ${3:0});"},
+		{"trigger": "defineParam\tint2", "contents": "defineParam(${1:name}, \"${2:externalName}\", int2(${3:0}, ${4:0}));"},
+		{"trigger": "defineParam\tint3", "contents": "defineParam(${1:name}, \"${2:externalName}\", int3(${3:0}, ${4:0}, ${5:0}));"},
+		{"trigger": "defineParam\tint4", "contents": "defineParam(${1:name}, \"${2:externalName}\", int4(${3:0}, ${4:0}, ${5:0}, ${6:0}));"},
+		{"trigger": "defineParam\tfloat", "contents": "defineParam(${1:name}, \"${2:externalName}\", ${3:0.0}f);"},
+		{"trigger": "defineParam\tfloat2", "contents": "defineParam(${1:name}, \"${2:externalName}\", float2(${3:0.0}f, ${4:0.0}f));"},
+		{"trigger": "defineParam\tfloat3", "contents": "defineParam(${1:name}, \"${2:externalName}\", float3(${3:0.0}f, ${4:0.0}f, ${5:0.0}f));"},
+		{"trigger": "defineParam\tfloat4", "contents": "defineParam(${1:name}, \"${2:externalName}\", float4(${3:0.0}f, ${4:0.0}f, ${5:0.0}f, ${6:0.0}f));"},
+		{"trigger": "defineParam\tbool", "contents": "defineParam(${1:name}, \"${2:externalName}\", ${3:false});"},
+
+		{"trigger": "setAxis\taxis 1D", "contents": "setAxis(e${1:X})"},
+		{"trigger": "setRange\tint min, int max 1D", "contents": "setRange(${1:-1}, ${2:1})"},
+		{"trigger": "setRange\txMin, yMin, xMax, yMax 2D", "contents": "setRange(${1:-1}, ${2:-1}, ${3:1}, ${4:1})"},
+
+		{"trigger": "ValueType\timage", "contents": "ValueType(${1:in})"},
+		{"trigger": "SampleType\timage", "contents": "SampleType(${1:in})"},
+
+		{"trigger": "bilinear\timage, float x, float y", "contents": "bilinear(${1:in}, ${2:0.0}f, ${3:0.0}f)"},
+		{"trigger": "bilinear\timage, float x, float y, int c", "contents": "bilinear(${1:in}, ${2:0.0}f, ${3:0.0}f, ${4:0})"},
+
+		{"trigger": "median", "contents": "median"},
+		{"trigger": "rect", "contents": "rect"},
+		{"trigger": "grow", "contents": "grow"},
+		{"trigger": "inside", "contents": "inside"},
+		{"trigger": "width", "contents": "width"},
+		{"trigger": "height", "contents": "height"},
+
+		{"trigger": "atomicAdd", "contents": "atomicAdd"},
+		{"trigger": "atomicInc", "contents": "atomicInc"}
+	]
+}

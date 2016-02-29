@@ -1,0 +1,36 @@
+{
+	"scope": "source.blink",
+
+	"completions": [
+		{"trigger": "dot", "contents": "dot"},
+		{"trigger": "cross", "contents": "cross"},
+		{"trigger": "length", "contents": "length"},
+		{"trigger": "normalize", "contents": "normalize"},
+		{"trigger": "sin", "contents": "sin"},
+		{"trigger": "cos", "contents": "cos"},
+		{"trigger": "tan", "contents": "tan"},
+		{"trigger": "asin", "contents": "asin"},
+		{"trigger": "acos", "contents": "acos"},
+		{"trigger": "atan", "contents": "atan"},
+		{"trigger": "atan2", "contents": "atan2"},
+		{"trigger": "exp", "contents": "exp"},
+		{"trigger": "log", "contents": "log"},
+		{"trigger": "log2", "contents": "log2"},
+		{"trigger": "log10", "contents": "log10"},
+		{"trigger": "floor", "contents": "floor"},
+		{"trigger": "ceil", "contents": "ceil"},
+		{"trigger": "round", "contents": "round"},
+		{"trigger": "pow", "contents": "pow"},
+		{"trigger": "sqrt", "contents": "sqrt"},
+		{"trigger": "rsqrt", "contents": "rsqrt"},
+		{"trigger": "abs", "contents": "abs"},
+		{"trigger": "fabs", "contents": "fabs"},
+		{"trigger": "fmod", "contents": "fmod"},
+		{"trigger": "modf", "contents": "modf"},
+		{"trigger": "sign", "contents": "sign"},
+		{"trigger": "min", "contents": "min"},
+		{"trigger": "max", "contents": "max"},
+		{"trigger": "clamp", "contents": "clamp"},
+		{"trigger": "rcp", "contents": "rcp"}
+	]
+}

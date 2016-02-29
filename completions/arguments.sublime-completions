@@ -1,0 +1,28 @@
+{
+	"scope": "source.blink",
+
+	"completions": [
+		{"trigger": "define", "contents": "define"},
+		{"trigger": "init", "contents": "init"},
+		{"trigger": "process", "contents": "process"},
+		{"trigger": "ImageComputationKernel\t<granulation>", "contents": "ImageComputationKernel<e${1:Component}Wise>"},
+		
+		{"trigger": "Image\tread", "contents": "Image<${1:eRead}, ${2:eAccessPoint}, ${3:eEdgeNone}> "},
+		{"trigger": "Image\tread ranged 2d", "contents": "Image<${1:eRead}, ${2:eAccessRanged2D}, ${3:eEdgeClamped}> "},
+		{"trigger": "Image\twrite", "contents": "Image<${1:eWrite}> "},
+		
+		{"trigger": "eComponentWise", "contents": "eComponentWise"},
+		{"trigger": "ePixelWise", "contents": "ePixelWise"},
+		{"trigger": "eRead", "contents": "eRead"},
+		{"trigger": "eWrite", "contents": "eWrite"},
+		{"trigger": "eAccessPoint", "contents": "eAccessPoint"},
+		{"trigger": "eAccessRanged1D", "contents": "eAccessRanged1D"},
+		{"trigger": "eAccessRanged2D", "contents": "eAccessRanged2D"},
+		{"trigger": "eAccessRandom", "contents": "eAccessRandom"},
+		{"trigger": "eEdgeClamped", "contents": "eEdgeClamped"},
+		{"trigger": "eEdgeConstant", "contents": "eEdgeConstant"},
+		{"trigger": "eEdgeNone", "contents": "eEdgeNone"},
+		{"trigger": "eX", "contents": "eX"},
+		{"trigger": "eY", "contents": "eY"}
+	]
+}

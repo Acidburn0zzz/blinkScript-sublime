@@ -1,0 +1,12 @@
+{
+	"scope": "source.blink",
+
+	"completions": [
+		{"trigger": "kMin", "contents": "kMin"},
+		{"trigger": "kMax", "contents": "kMax"},
+		{"trigger": "kWhitePoint", "contents": "kWhitePoint"},
+		{"trigger": "kComps", "contents": "kComps"},
+		{"trigger": "kClamps", "contents": "kClamps"},
+		{"trigger": "bounds", "contents": "bounds"}
+	]
+}

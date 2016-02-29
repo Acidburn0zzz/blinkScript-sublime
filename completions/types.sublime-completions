@@ -1,0 +1,20 @@
+{
+	"scope": "source.blink",
+
+	"completions": [
+		{"trigger": "int", "contents": "int"},
+		{"trigger": "int2", "contents": "int2"},
+		{"trigger": "int3", "contents": "int3"},
+		{"trigger": "int4", "contents": "int4"},
+		{"trigger": "float", "contents": "float"},
+		{"trigger": "float2", "contents": "float2"},
+		{"trigger": "float3", "contents": "float3"},
+		{"trigger": "float4", "contents": "asin"},
+		{"trigger": "float3x3", "contents": "float3x3"},
+		{"trigger": "float4x4", "contents": "float4x4"},
+		{"trigger": "bool", "contents": "bool"},
+		
+		{"trigger": "recti", "contents": "recti"},
+		{"trigger": "rectf", "contents": "rectf"}
+	]
+}
