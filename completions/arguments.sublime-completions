@@ -7,9 +7,9 @@
 		{"trigger": "process", "contents": "process"},
 		{"trigger": "ImageComputationKernel\t<granulation>", "contents": "ImageComputationKernel<e${1:Component}Wise>"},
 		
-		{"trigger": "Image\tread", "contents": "Image<${1:eRead}, ${2:eAccessPoint}, ${3:eEdgeNone}> "},
-		{"trigger": "Image\tread ranged 2d", "contents": "Image<${1:eRead}, ${2:eAccessRanged2D}, ${3:eEdgeClamped}> "},
-		{"trigger": "Image\twrite", "contents": "Image<${1:eWrite}> "},
+		{"trigger": "Image\tread", "contents": "Image<e${1:Read}, eAccess${2:Point}, eEdge${3:None}> "},
+		{"trigger": "Image\tread ranged 2d", "contents": "Image<e${1:Read}, eAccess${2:Ranged2D}, eEdge${3:Clamped}> "},
+		{"trigger": "Image\twrite", "contents": "Image<e${1:Write}$2> "},
 		
 		{"trigger": "eComponentWise", "contents": "eComponentWise"},
 		{"trigger": "ePixelWise", "contents": "ePixelWise"},
