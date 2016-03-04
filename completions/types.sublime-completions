@@ -9,7 +9,7 @@
 		{"trigger": "float", "contents": "float"},
 		{"trigger": "float2", "contents": "float2"},
 		{"trigger": "float3", "contents": "float3"},
-		{"trigger": "float4", "contents": "asin"},
+		{"trigger": "float4", "contents": "float4"},
 		{"trigger": "float3x3", "contents": "float3x3"},
 		{"trigger": "float4x4", "contents": "float4x4"},
 		{"trigger": "bool", "contents": "bool"},
