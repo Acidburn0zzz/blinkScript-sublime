@@ -7,6 +7,7 @@
 		{"trigger": "kWhitePoint", "contents": "kWhitePoint"},
 		{"trigger": "kComps", "contents": "kComps"},
 		{"trigger": "kClamps", "contents": "kClamps"},
-		{"trigger": "bounds", "contents": "bounds"}
+		{"trigger": "bounds", "contents": "bounds"},
+		{"trigger": "PI", "contents": "PI"}
 	]
 }
