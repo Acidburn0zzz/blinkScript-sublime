@@ -27,7 +27,7 @@ patterns:
 
 - comment: blink attributes..
   name: entity.other.attribute-name.blink
-  match: \b(kMin|kMax|kWhitePoint|kComps|kClamps|bounds)\b
+  match: \b(kMin|kMax|kWhitePoint|kComps|kClamps|bounds|PI)\b
 
 - comment: blink functions and methods..
   name: entity.name.function.blink
