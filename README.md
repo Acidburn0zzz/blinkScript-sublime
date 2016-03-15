@@ -5,5 +5,5 @@ this package includes syntax highliting and autocompletion for The Foundry's Nuk
 
 installation
 ============
-install it via package control or clone the repository in your sublime package folder.
+install it via package control(soon.. waiting pull request´s acceptance) or clone the repository in your sublime package folder.
 git: https://github.com/diegoinacio/blinkScript-sublime
