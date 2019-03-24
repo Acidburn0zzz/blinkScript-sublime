@@ -1,20 +1,26 @@
-## sublime syntax - blinkScript
-this package includes syntax highliting and autocompletion for The Foundry's Nuke blinkScript.
+# BlinkScript - Sublime text
+This package includes syntax highlighting and autocompletion for the [Foundry's **Nuke**](https://www.foundry.com/products/nuke) [BlinkScript](https://learn.foundry.com/nuke/content/reference_guide/other_nodes/blinkscript.html).
 
-## installation
+## Installation
 Clone this repository in your sublime package folder.
 - direct link: https://github.com/diegoinacio/blinkScript-sublime
 
-## features
-- **kernel snippet**: constructs a basic structure of a blinkScript.
-![blinkScrip syntax](/sourceimages/gif01.gif "kernel snippet")
+*It's also available in [**Package Control**](https://packagecontrol.io)*.
 
-- **reserved keywords**: much of the reserved words and functions was implemented for highlighting and autocompletion.
-![blinkScrip syntax](/sourceimages/gif02.gif "reserved words")
+## Features
+- **Kernel Snippet**: Constructs a basic structure of a BlinkScript.
 
-- **blinkScript functions**: blinkScript's native functions was implemented too with passing through the variables.
-![blinkScrip syntax](/sourceimages/gif03.gif "define param")
-![blinkScrip syntax](/sourceimages/gif04.gif "init process")
+![blinkScrip syntax](./sourceimages/gif01.gif "kernel snippet")
 
-- **example**: snippet 'for loop' gives a very practical way to implement loops with multiple editing and passing through the parameters.
-![blinkScrip syntax](/sourceimages/gif05.gif "for snippet")
+- **Reserved Keywords**: Much of reserved words and functions was implemented for highlighting and autocompletion.
+
+![blinkScrip syntax](./sourceimages/gif02.gif "reserved words")
+
+- **BlinkScript Functions**: BlinkScript's native functions was implemented too with passing through the variables.
+
+![blinkScrip syntax](./sourceimages/gif03.gif "define param")
+![blinkScrip syntax](./sourceimages/gif04.gif "init process")
+
+- **Example**: Snippet 'for loop' gives a very practical way to implement loops with multiple editing and passing through the parameters.
+
+![blinkScrip syntax](./sourceimages/gif05.gif "for snippet")
